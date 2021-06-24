@@ -1,0 +1,136 @@
+body {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  padding: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #666666;
+  background-color: rgb(240, 240, 240);
+}
+.photo {
+  width: 110px;
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+}
+a:hover {
+  background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: normal;
+  padding: 0 10px;
+  border-bottom: 1px solid #e7e7e7;
+  -webkit-box-shadow: 0px 2px 5px rgba(233, 233, 233, 0.77);
+  -moz-box-shadow: 0px 2px 5px rgba(233, 233, 233, 0.77);
+  box-shadow: 0px 2px 5px rgba(233, 233, 233, 0.77);
+}
+.header div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.header div h3 {
+  background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 8px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu i {
+  font-size: 17px;
+}
+.menu li {
+  margin-left: 10px;
+  list-style: none;
+}
+.menu li a {
+  display: block;
+  padding: 10px;
+}
+.presentation {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 10px auto;
+  font-weight: normal;
+  align-items: center;
+}
+.presentation div {
+  padding: 20px 20px 20px 0;
+}
+.presentation div img {
+  border: 3px solid rgb(255, 255, 255);
+  -webkit-box-shadow: 0px 5px 10px rgba(15, 201, 151, 0.99);
+  -moz-box-shadow: 0px 5px 10px rgba(15, 201, 151, 0.99);
+  box-shadow: 0px 5px 10px rgba(15, 201, 151, 0.99);
+}
+.presentation div img:hover {
+  border: 3px solid rgba(15, 201, 151, 0.99);
+}
+.presentation span {
+  flex: 1;
+}
+.skills {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 15px;
+}
+.skills div {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+.skills div img {
+  height: 40px;
+  animation: bounce;
+  animation-duration: 2s;
+}
+.skills div img:hover {
+  animation: shakeX;
+  animation-duration: 2s;
+}
+.experiences {
+  padding: 10px;
+  margin-bottom: 100px;
+}
+.experiences div {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.experiences div div {
+  margin-top: 15px;
+}
+.experiences strong {
+  background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experiences strong:hover {
+  background: -webkit-linear-gradient(45deg, #08ceb7, #06735f 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

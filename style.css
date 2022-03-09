@@ -6,32 +6,32 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: #999999;
-  background-color: #090C15;
+  color: #aca2c5;
+  background-color: #060c1f;
 }
 body::-webkit-scrollbar {
   width: 15px;               /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-  background: #666666;        /* color of the tracking area */
+  background: #0e163a;        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgba(40, 69, 65, 0.77);    /* color of the scroll thumb */
+  background-color: rgba(12, 36, 112, 0.77);    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 2px solid rgba(59, 91, 87, 0.77);   /* creates padding around scroll thumb */
+  border: 2px solid rgba(12, 36, 112, 0.77);   /* creates padding around scroll thumb */
 }
 .photo {
   width: 200px;
-  border-radius: 2%;
+  border-radius: 20%;
 }
 a {
   text-decoration: none;
   color: #666666;
 }
 a:hover {
-  background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
+  background: -webkit-linear-gradient(45deg, #1849eb, #7f23f8 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -40,7 +40,7 @@ h1 {
   margin-top: 20px;
 }
 img {
-  max-width: 100%;
+  max-width: 80%;
   display: block;
 }
 .header {
@@ -50,21 +50,21 @@ img {
   align-items: center;
   font-weight: normal;
   padding: 0 10px;
-  border-bottom: 1px solid rgba(40, 69, 65, 0.77);
-  -webkit-box-shadow: 0px 2px 5px rgba(40, 69, 65, 0.77);
-  -moz-box-shadow: 0px 2px 5px rgba(40, 69, 65, 0.77);
-  box-shadow: 0px 2px 5px rgba(40, 69, 65, 0.77);
+  border-bottom: 1px solid rgb(28, 25, 61);
+  -webkit-box-shadow: 0px 2px 15px rgb(28, 25, 61);
+  -moz-box-shadow: 0px 2px 15px rgb(28, 25, 61);
+  box-shadow: 0px 2px 15px rgb(28, 25, 61);
 }
 .header div {
   display: flex;
   align-items: center;
-  font-size: 14px;
 }
 .header div h3 {
-  background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
+  background: -webkit-linear-gradient(45deg, #1849eb, #7f23f8 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-right: 8px;
+  font-size: 25px;
 }
 .menu {
   display: flex;
@@ -94,22 +94,22 @@ img {
 }
 .presentation div img {
   border: 0px solid rgb(255, 255, 255);
-  -webkit-box-shadow: 0px 2px 10px rgba(15, 201, 151, 0.99);
-  -moz-box-shadow: 0px 2px 10px rgba(15, 201, 151, 0.99);
-  box-shadow: 0px 2px 0px rgba(15, 201, 151, 0.99);
+  -webkit-box-shadow: 0px 2px 10px #621eff;
+  -moz-box-shadow: 0px 2px 10px #621eff;
+  box-shadow: 0px 2px 0px #621eff;
 }
 .presentation div img:hover {
   border: 0px solid rgba(15, 201, 151, 0.99);
-  -webkit-box-shadow: 0px 4px 10px rgba(15, 201, 151, 0.99);
-  -moz-box-shadow: 0px 4px 10px rgba(15, 201, 151, 0.99);
-  box-shadow: 0px 2px 5px rgba(15, 201, 151, 0.99);
+  -webkit-box-shadow: 0px 4px 10px #3e10a8;
+  -moz-box-shadow: 0px 4px 10px #3e10a8;
+  box-shadow: 0px 2px 5px #3e10a8;
 }
 .presentation span {
   flex: 1;
 }
 .skills {
   display: flex;
-  background-color: rgb(17, 41, 38);
+  background-color: rgb(6, 5, 20);
   align-items: center;
   padding: 15px;
 }
@@ -122,12 +122,10 @@ img {
 }
 .skills div img {
   height: 40px;
-  animation: bounce;
-  animation-duration: 2s;
+  transition: transform .2s;
 }
 .skills div img:hover {
-  animation: shakeX;
-  animation-duration: 2s;
+  transform: scale(1.13);
 }
 .experiences {
   padding: 10px;
@@ -141,12 +139,13 @@ img {
   margin-top: 15px;
 }
 .experiences strong {
-  background: -webkit-linear-gradient(45deg, #06735f, #08ceb7 80%);
+  background: -webkit-linear-gradient(45deg, #1849eb, #7f23f8 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 20px;
 }
 .experiences strong:hover {
-  background: -webkit-linear-gradient(45deg, #08ceb7, #06735f 80%);
+  background: -webkit-linear-gradient(45deg, #7f23f8, #1849eb 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

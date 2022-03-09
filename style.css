@@ -2,25 +2,22 @@ body {
   font-size: 15px;
   font-family: "Poppins", "Open Sans", sans-serif;
   font-weight: normal;
-  padding: 20px;
-  margin: 0;
   padding: 0;
+  margin: 0;
   list-style: none;
   color: #aca2c5;
   background-color: #060c1f;
 }
 body::-webkit-scrollbar {
-  width: 15px;               /* width of the entire scrollbar */
+  width: 15px; /* width of the entire scrollbar */
 }
-
 body::-webkit-scrollbar-track {
-  background: #0e163a;        /* color of the tracking area */
+  background: #0e163a; /* color of the tracking area */
 }
-
 body::-webkit-scrollbar-thumb {
-  background-color: rgba(12, 36, 112, 0.77);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 2px solid rgba(12, 36, 112, 0.77);   /* creates padding around scroll thumb */
+  background-color: rgba(12, 36, 112, 0.77); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid rgba(12, 36, 112, 0.77); /* creates padding around scroll thumb */
 }
 .photo {
   width: 200px;
@@ -34,10 +31,6 @@ a:hover {
   background: -webkit-linear-gradient(45deg, #1849eb, #7f23f8 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-h1 {
-  text-align: center;
-  margin-top: 20px;
 }
 img {
   max-width: 80%;
@@ -58,6 +51,9 @@ img {
 .header div {
   display: flex;
   align-items: center;
+}
+.header .items-title {
+  padding: 0 0 0 5px;
 }
 .header div h3 {
   background: -webkit-linear-gradient(45deg, #1849eb, #7f23f8 70%);
@@ -122,7 +118,7 @@ img {
 }
 .skills div img {
   height: 40px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 .skills div img:hover {
   transform: scale(1.13);
@@ -148,4 +144,36 @@ img {
   background: -webkit-linear-gradient(45deg, #7f23f8, #1849eb 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 600px) {
+  .header div {
+    display: grid;
+  }
+  .header .items-first {
+    width: 100%;
+    text-align: center;
+  }
+  .header .items-title {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+  .header .items-title span {
+    position: relative;
+    float: left;
+  }
+  .presentation div {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: auto;
+  }
+  .presentation span {
+    padding: 10px;
+  }
+  .presentation div img {
+    position: relative;
+    margin: auto;
+  }
 }

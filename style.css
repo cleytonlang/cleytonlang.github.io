@@ -177,3 +177,46 @@ img {
     margin: auto;
   }
 }
+
+@media (min-width: 320px && max-width: 600px) {
+  .header div h3 {
+    font-size: 50px !important;
+  }
+  .header div {
+    display: grid;
+  }
+  .header .items-first {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .header .items-first i {
+    font-size: 40px;
+  }
+  .header .items-title {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+  .header .items-title span {
+    position: relative;
+    float: left;
+  }
+  .presentation div {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: auto;
+  }
+  .presentation span {
+    padding: 10px;
+  }
+  .presentation div img {
+    position: relative;
+    margin: auto;
+  }
+  .skills div img {
+    height: 70px;
+    transition: transform 0.2s;
+  }
+}

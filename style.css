@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb {
 }
 a {
   text-decoration: none;
-  color: #666666;
+  color: #7f23f8;
 }
 a:hover {
   background: -webkit-linear-gradient(45deg, #1849eb, #7f23f8 60%);

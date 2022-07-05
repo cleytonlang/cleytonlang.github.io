@@ -147,7 +147,7 @@ img {
   border-radius: 10px;
 }
 .experiences div div:hover {
-  border: 15px solid #0059b2;
+  border: 0 15px 15px 15px solid #0059b2;
   background-color: #060c1f;
   border-image: linear-gradient(0deg, #43bff9 , #060c1f);
   background: -webkit-linear-gradient(90deg, #0F253D, #060c1f 100%);

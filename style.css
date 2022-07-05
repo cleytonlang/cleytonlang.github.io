@@ -144,15 +144,15 @@ img {
   margin-top: 15px;
   border: 15px solid transparent;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .experiences div div:hover {
-  border: 0 15px 15px 15px solid #0059b2;
+  border: 15px solid #0059b2;
   background-color: #060c1f;
   border-image: linear-gradient(0deg, #43bff9 , #060c1f);
   background: -webkit-linear-gradient(90deg, #0F253D, #060c1f 100%);
   border-image-slice: 1;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .experiences strong {
   background: -webkit-linear-gradient(45deg, #0059b2, #43bff9 70%);

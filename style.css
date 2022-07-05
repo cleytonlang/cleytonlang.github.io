@@ -142,7 +142,7 @@ img {
 }
 .experiences div div {
   margin-top: 15px;
-  border: 15px solid #060c1f;
+  border: 15px solid transparent;
   padding: 20px;
   border-radius: 10px;
 }

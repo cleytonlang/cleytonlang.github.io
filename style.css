@@ -104,6 +104,7 @@ img {
 }
 .presentation span {
   flex: 1;
+  line-height: 16px;
 }
 .main-skills {
   background: -webkit-linear-gradient(45deg, #0059b2, #43bff9 70%);

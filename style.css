@@ -1,6 +1,6 @@
 body {
-  font-size: 15px;
-  font-family: "Fira Code","Poppins", "Open Sans", sans-serif;
+  font-size: 18px;
+  font-family: "Poppins", "Fira Code", "Open Sans", sans-serif;
   font-weight: normal;
   letter-spacing: -1px;
   padding: 0;
@@ -22,7 +22,7 @@ body::-webkit-scrollbar-thumb {
 }
 .photo {
   width: 200px;
-  border-radius: 20%;
+  border-radius: 50%;
 }
 a {
   text-decoration: none;
@@ -69,7 +69,7 @@ img {
   flex-wrap: wrap;
 }
 .menu i {
-  font-size: 17px;
+  font-size: 23px;
 }
 .menu li {
   margin-left: 10px;
@@ -104,7 +104,8 @@ img {
 }
 .presentation span {
   flex: 1;
-  line-height: 180%;
+  /* line-height: 180%; */
+  font-size:18px
 }
 .main-skills {
   background: -webkit-linear-gradient(45deg, #0059b2, #43bff9 70%);

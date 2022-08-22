@@ -1,8 +1,7 @@
 body {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Poppins", "Fira Code", "Open Sans", sans-serif;
   font-weight: normal;
-  letter-spacing: -1px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -21,12 +20,12 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid rgba(12, 36, 112, 0.77); /* creates padding around scroll thumb */
 }
 .photo {
-  width: 200px;
+  width: 120px;
   border-radius: 50%;
 }
 a {
   text-decoration: none;
-  color: #7f23f8;
+  color: #435ed8;
 }
 a:hover {
   background: -webkit-linear-gradient(45deg, #1849eb, #7f23f8 60%);
@@ -34,29 +33,57 @@ a:hover {
   -webkit-text-fill-color: transparent;
 }
 img {
-  max-width: 80%;
   display: block;
 }
-.header {
+header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-weight: normal;
-  padding: 0 10px;
-  border-bottom: 1px solid rgb(28, 25, 61);
-  -webkit-box-shadow: 0px 2px 15px rgb(28, 25, 61);
-  -moz-box-shadow: 0px 2px 15px rgb(28, 25, 61);
-  box-shadow: 0px 2px 15px rgb(28, 25, 61);
 }
-.header div {
+
+header section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  background: #171b42;
+  border-radius: 15px;
+  margin-top: 20px;
+  max-width: 900px;
+  padding: 10px;
 }
-.header .items-title {
+
+header section div {
+  min-width: 150px;
+}
+
+header section .items-first {
+  display: grid;
+  align-items: flex-start;
+}
+
+header section .logo-social {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+header section .logo-social nav {
+  margin-left: -50px;
+}
+
+header section div {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+header .items-title {
   padding: 0 0 0 5px;
 }
-.header div h3 {
+
+header div h3 {
   background: -webkit-linear-gradient(45deg, #1849eb, #43bff9 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -67,17 +94,25 @@ img {
 .menu {
   display: flex;
   flex-wrap: wrap;
+  backgroud: green !important;
 }
 .menu i {
-  font-size: 23px;
+  font-size: 25px;
 }
 .menu li {
-  margin-left: 10px;
   list-style: none;
 }
 .menu li a {
   display: block;
-  padding: 10px;
+  padding-right: 15px;
+}
+.presentationFirst {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 10px auto;
+  font-weight: normal;
+  align-items: center;
 }
 .presentation {
   display: flex;
@@ -86,9 +121,13 @@ img {
   margin: 10px auto;
   font-weight: normal;
   align-items: center;
+  justify-content: space-between;
+  flex-grow: 2;
 }
 .presentation div {
-  padding: 20px 20px 20px 0;
+  padding: 15px;
+  background: #0e163a;
+  border-radius: 15px;
 }
 .presentation div img {
   border: 0px solid rgb(255, 255, 255);
@@ -104,14 +143,14 @@ img {
 }
 .presentation span {
   flex: 1;
-  /* line-height: 180%; */
-  font-size:18px
+  line-height: 150%;
+  font-size: 16px;
 }
 .main-skills {
   background: -webkit-linear-gradient(45deg, #0059b2, #43bff9 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 18px;
+  font-size: 20px;
 }
 .skills {
   display: flex;
@@ -138,22 +177,21 @@ img {
   margin-bottom: 100px;
 }
 .experiences div {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .experiences div div {
   margin-top: 15px;
-  border: 15px solid transparent;
+  border: 1px solid transparent;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .experiences div div:hover {
-  border: 15px solid #0059b2;
+  border: 1px solid #0059b2;
   background-color: #060c1f;
-  border-image: linear-gradient(0deg, #43bff9 , #060c1f);
-  background: -webkit-linear-gradient(90deg, #0F253D, #060c1f 100%);
+  border-image: linear-gradient(0deg, #43bff9, #060c1f);
+  background: -webkit-linear-gradient(90deg, #0f253d, #060c1f 100%);
   border-image-slice: 1;
-  border-radius: 15px;
 }
 .experiences strong {
   background: -webkit-linear-gradient(45deg, #0059b2, #43bff9 70%);

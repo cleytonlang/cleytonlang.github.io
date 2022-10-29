@@ -9,10 +9,10 @@ function App() {
         <div className="logo">
           <img src={logo} title="Cleyton Silva" />
           <Box>
-            <Anchor href="#">Linkedin</Anchor>
+            <Anchor href="https://www.linkedin.com/in/cleytonbrasil/" target="_blank">Linkedin</Anchor>
           </Box>
           <Box>
-            <Anchor href="#">Github</Anchor>
+            <Anchor href="https://github.com/cleytonlang" target="_blank">Github</Anchor>
           </Box>
         </div>
         <div>

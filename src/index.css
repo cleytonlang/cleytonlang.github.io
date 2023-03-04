@@ -6,7 +6,8 @@
 
   color-scheme: light dark;
   color: #555555 !important;
-  background-color: #15171b;
+  background-color: #eeeeee;
+  /* background-color: #15171b; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,6 +35,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  letter-spacing: -1px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -90,9 +92,18 @@ body {
 
 .header div:first-child {
   text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .header img {
-  border-radius: 50%;
-  width: 120px;
+  border-radius:50%;
+  width: 200px;
+  transform: rotate(-10deg);
+  margin-bottom: 20px;
+}
+
+.name{
+  font-size: 60px !important;
+  letter-spacing: -5px;
 }

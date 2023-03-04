@@ -1,7 +1,8 @@
 import "dracula-ui/styles/dracula-ui.css";
 import { motion } from "framer-motion"
 import { Paragraph, List, Text, Anchor, Box } from "dracula-ui";
-import logo from "./assets/profile.jpg";
+import logo from "./assets/logo.fw.png";
+import photo from "./assets/profile.jpg";
 
 function App() {
   return (
@@ -32,43 +33,48 @@ function App() {
           </Box>
         </motion.div>
         <div>
-          <Text color="blackSecondary" weight="bold" size="lg" as="span" className="name">
-            Cleyton Brasil
-          </Text>
-          <Paragraph color="purple" weight="bold" size="lg">
+
+          <Paragraph color="purpleCyan" weight="bold" size="lg">
             Software Enginner - cleytonb40@gmail.com | +55 31 988621156
           </Paragraph>
           <Paragraph mb="md" size="lg" color="blackSecondary">
-            Software developer with 12 years of experience in developing
-            enterprise applications. Passionate about learning new technologies.
-            I live this every day and I intend to do this for a lifetime, but I
-            also have other passions. I love music, I like to play guitar and
-            sing. I love to photograph.
+            Software developer with over 12 years of experience in enterprise application development.
+            Passionate about learning new technologies.
+            I live this every day and intend to do this for the rest of my life, but I also have other passions.
+            I love music, I like to play the guitar and sing. Also I like to photograph and I love dogs.
           </Paragraph>
         </div>
       </div>
 
       <Box mb="md">
-        <Box mb="sm">
-          <Text weight="bold" color="blackSecondary" size="lg">
-            Main Skills
-          </Text>
-        </Box>
-        <Box>
-          <List variant="unordered" color="purple">
-            <li className="drac-text drac-text-blackSecondary">
-              Frontend: JavaScript, ReactJS, NextJS
-            </li>
-            <li className="drac-text drac-text-blackSecondary">Backend: Node JS</li>
-            <li className="drac-text drac-text-blackSecondary">
-              Databases: PostgreSQL, MySQL, SQL Server
-            </li>
-            <li className="drac-text drac-text-blackSecondary">Github, Gitlab, Bitbucket</li>
-            <li className="drac-text drac-text-blackSecondary">Trello, Jira</li>
-            <li className="drac-text drac-text-blackSecondary">
-              AWS (EC2, S3, Amplify, RDS, SES, Cloudfront)
-            </li>
-          </List>
+        <Box className="skills-photo">
+          <div>
+            <Box mb="sm">
+              <Text color="blackSecondary" weight="bold" size="lg" as="span" className="name">
+                Cleyton Silva
+              </Text>
+            </Box>
+            <Text weight="bold" color="blackSecondary" size="lg">
+              Main Skills
+            </Text>
+            <List variant="unordered" color="purple">
+              <li className="drac-text drac-text-blackSecondary">
+                Frontend: JavaScript, ReactJS, NextJS
+              </li>
+              <li className="drac-text drac-text-blackSecondary">Backend: Node JS</li>
+              <li className="drac-text drac-text-blackSecondary">
+                Databases: PostgreSQL, MySQL, SQL Server
+              </li>
+              <li className="drac-text drac-text-blackSecondary">Github, Gitlab, Bitbucket</li>
+              <li className="drac-text drac-text-blackSecondary">Trello, Jira</li>
+              <li className="drac-text drac-text-blackSecondary">
+                AWS (EC2, S3, Amplify, RDS, SES, Cloudfront)
+              </li>
+            </List>
+          </div>
+          <div>
+            <img src={photo} className="photo" title="Cleyton Silva" />
+          </div>
         </Box>
       </Box>
 

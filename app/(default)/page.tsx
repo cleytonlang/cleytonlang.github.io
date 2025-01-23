@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Cleyton Silva - Software Engineer",
+  description: "I am a software engineer with a passion for building web applications. And I am always looking for new technologies to learn and apply in my projects.",
 };
 
 import PageIllustration from "@/components/page-illustration";

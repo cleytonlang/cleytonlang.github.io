@@ -7,18 +7,11 @@ export default function Header() {
   return (
     <header className="z-30 mt-2 w-full md:mt-5">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="relative flex h-14 items-center justify-between gap-3 rounded-2xl bg-gray-900/90 px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-sm">
-          {/* Site branding */}
-          <div className="flex flex-1 items-center">
-            {/* <Logo />  */}
-            {/* <h1 className="text-4xl font-bold text-white">Cleyton Silva</h1> */}
-          </div>
-
-          {/* Desktop sign in links */}
-          <ul className="flex flex-1 items-center justify-end gap-3">
+        <div className="relative flex h-14 items-center justify-center border border-gray-800/90 gap-3 rounded-full bg-black-900/10 px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 after:backdrop-blur-sm">
+          <ul className="flex flex-1 items-center justify-center gap-3">
             <li>
               <a
-                className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
+                className="flex items-center justify-center text-indigo-300 transition hover:text-indigo-400"
                 href="https://github.com/cleytonlang"
                 target="_blank"
                 aria-label="Github"
@@ -34,7 +27,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
+                className="flex items-center justify-center text-indigo-300 transition hover:text-indigo-400"
                 href="https://www.linkedin.com/in/cleytonbrasil/"
                 target="_blank"
                 aria-label="LinkedIn"
